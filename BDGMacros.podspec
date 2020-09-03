@@ -4,9 +4,9 @@ Pod::Spec.new do |s|
   s.summary        = 'xCode Macros'
   s.license 	   = 'MIT'
   s.description    = 'Really useful macros to use in every xCode project, such as isPad, conversions, suppress warnings, singleton, dlog, documentsfolder'
-  s.homepage       = 'https://github.com/BobDG/BDGMacros'
+  s.homepage       = 'https://github.com/officeapp/BDGMacros'
   s.authors        = {'Bob de Graaf' => 'graafict@gmail.com'}
-  s.source         = { :git => 'https://github.com/BobDG/BDGMacros.git', :tag => s.version.to_s }
+  s.source         = { :git => 'https://github.com/officeapp/BDGMacros.git', :tag => s.version.to_s }
   s.source_files   = '*.{h,m}'  
   s.module_name    = 'BDGMacros' 
   s.platform       = :ios
